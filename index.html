@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Flexbox</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <style>
+        * { 
+            box-sizing: content-box;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            color: white;
+            font-family: sans-serif;
+            }
+        
+        nav *{
+            color: white;
+        }
+        
+        .icon {
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+            border-radius: 50%;
+            background-color: white;
+            text-align: center;
+            margin-left: 10px;
+        }
+        
+        .icon i {
+            color: #00006d;
+            padding-top: 0;
+        }
+        footer .icon {
+            padding: 7px;
+        }
+        
+        header {
+            background-image: url(images/Layer%201.png);
+        }
+        
+        div.box_2 {
+            background-image: url(images/Layer%201%20copy%203.png);
+            background-position: center;
+            background-size: 100%;
+        }
+        
+        div.box_2 img {
+            padding-bottom: 20px;
+        }
+        
+        div.box_4 p,
+        div.box_4 a {
+            color: gray;
+        }
+        
+        div.box_4 p {
+            font-weight: bold;
+        }
+        
+        div.box_4 .rounded-circle {
+            margin: auto;
+            height: 110px;
+            width: 110px;
+            background-image: url(images/Layer%20218.png);
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand font-weight-bold text-center" style="background-color: #00006d;">
+        <div class="col-sm navbar-brand"><a href="#">Made by Jack</a></div>
+        <div class="col-sm navbar">
+            <ul class="navbar-nav pt-2 pb-2 text-uppercase" style="font-size: 15px;">
+                <li><a class="nav-link" href="#">home</a></li>
+                <li><a class="nav-link" href="#">about</a></li>
+                <li><a class="nav-link" href="#">work</a></li>
+                <li><a class="nav-link" hre="#">contact</a></li>
+                <li><a class="nav-link icon" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a class="nav-link icon" href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                <li><a class="nav-link icon" href="#"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <header class="w-100 text-center text-light pt-5 position-relative" style="height: 300px;">
+        <h2>I’m a designer from the United Kingdom. Get in touch today!</h2>
+    </header>
+    
+    <div class="row box_1 shadow m-0 mx-auto p-0 overflow-hidden bg-dark position-absolute text-white" style="height: 370px; width: 70%; top: 300px; left: 15%; border: 8px solid white; box-shadow: 1px;">
+        <div class="col-sm mt-5">
+            <h3>MediaGroup</h3>
+            <a href="#">www.mediagroup.com</a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet nibh ac dui rhoncus pretium. Cras quis dolor id urna lobortis fermentum. Pellentesque mattis erat nulla, et scelerisque nibh ac dui rhoncus</p>
+            <button class="border-info rounded-pill pl-3 pr-3 bg-info text-white"><a class="nav-link text-light" href="#">Visit site</a></button>
+            <button class="border-light rounded-pill pl-3 pr-3 bg-dark text-white"><a class="nav-link text-light" href="#">Visit site</a></button>
+        </div>
+        <div class="col-sm p-0">
+            <img src="images/Layer%202.png">
+        </div>
+    </div>
+    <div class="row text-center text-muted mx-auto mb-5" style="margin-top: 350px;">
+        <h4 class="col">Looking for a fresh new website design?</h4>
+        <p class="col">I provide awesome website design packages starting from as low as $199!</p>
+    </div>
+    
+    <div class="row box_2 text-center p-4 m-0" style="line-height: 2em; height: 300px;">
+        <div class="col-sm p-5">
+            <img src="images/icon1.png">
+            <h4>Beautiful Design</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet nibh ac dui rhoncus pretium. Cras quis dolor id urna lobortis fermentum. </p>
+        </div>
+        <div class="col-sm p-5">
+            <img src="images/icon2.png">
+            <h4>Built to Perfection</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet nibh ac dui rhoncus pretium. Cras quis dolor id urna lobortis fermentum. </p>
+        </div>
+        <div class="col-sm p-5">
+            <img src="images/icon3.png">
+            <h4>Satisfaction Guaranteed</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet nibh ac dui rhoncus pretium. Cras quis dolor id urna lobortis fermentum. </p>
+        </div>
+    </div>
+    
+    <div class="text-center text-muted mt-5 pt-5">
+        <h4>Latest Projects</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+     
+    <div class="row box_3 text-center overflow-hidden p-4 m-0 mb-5" style="line-height: 2em; height: 420px;">
+        <div class="col p-5">
+            <img src="images/Layer%2010%20copy.png">
+        </div>
+        <div class="col p-5">
+            <img src="images/Layer%2011%20copy.png">
+        </div>
+        <div class="col p-5">
+            <img src="images/Layer%2011.png">
+        </div>
+    </div>
+    
+    <div class="text-center text-muted mt-5 pt-5">
+        <h4>Client Testimonials</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    
+    <div class="row box_4 text-center text-info p-5 m-0" style="line-height: 2em; height: 300px; color: deepskyblue">
+        <div class="col-sm p-5">
+            <div class="rounded-circle"></div>
+            <blockquote class="blockquote">“Vivamus varius imperdiet mollis. Praesent gravida sollicitudin odio, vel condimentum ”</blockquote>
+            <p>Bill Gates</p>
+            <a href="#">www.google.com</a>
+        </div>
+        <div class="col-sm p-5">
+            <div class="rounded-circle"></div>
+            <blockquote class="blockquote">“Vivamus varius imperdiet mollis. Praesent gravida sollicitudin odio, vel condimentum ”</blockquote>
+            <p>Bill Gates</p>
+            <a href="#">www.google.com</a>
+        </div>
+        <div class="col-sm p-5">
+            <div class="rounded-circle"></div>
+            <blockquote class="blockquote">“Vivamus varius imperdiet mollis. Praesent gravida sollicitudin odio, vel condimentum ”</blockquote>
+            <p>Bill Gates</p>
+            <a href="#">www.google.com</a>
+        </div>
+    </div>
+    
+    <footer class="row text-center p-4 m-0 mt-5" style="background-color: #00006d;">
+        <div class="col-sm">
+            <p>Copyright Made by Jack 2014. All rights reserved.</p>
+        </div>
+        <div class="col-sm d-inline-flex flex-row justify-content-center">
+            <a class="nav-link icon" href="#"><i class="fab fa-facebook-f"></i></a>
+            <a class="nav-link icon" href="#"><i class="fab fa-google-plus-g"></i></a>
+            <a class="nav-link icon" href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
